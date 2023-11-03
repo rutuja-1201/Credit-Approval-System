@@ -7,9 +7,13 @@ The Credit Approval System is designed to assess and approve credit for customer
 
 # Setup and Initialization
  Database Configuration
+ 
  Choose either MySQL as your database system.
+ 
  Configure the database connection in the db/connection.js file.
+ 
  Use the provided Excel files (customer_data.xlsx and loan_data.xlsx) to ingest initial data into the system.
+ 
  Use background tasks, such as cron jobs, to periodically update the data from these files.
 
 # API Endpoints
