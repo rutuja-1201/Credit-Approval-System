@@ -14,12 +14,19 @@ The Credit Approval System is designed to assess and approve credit for customer
 
 # API Endpoints
 The system provides several API endpoints for various operations:
+
 /register: Add a new customer to the system.
+
 /check-eligibility: Check loan eligibility and approve loans based on credit score.
+
 /create-loan: Process a new loan based on eligibility.
+
 /view-loan/loan_id: View loan and customer details.
+
 /make-payment/customer_id/loan_id: Allow customers to make EMI payments.
+
 /view-statement/customer_id/loan_id: View the statement of a particular loan taken by the customer.
+
 
 The credit score is calculated based on various factors, including past loans paid on time, the number of loans taken, loan activity in the current year, loan approved volume, and the comparison of current loan EMIs with the approved limit.
 Loan approval criteria are determined based on the calculated credit score. Loans are approved according to specified rules, and interest rates may be corrected based on credit scores.
